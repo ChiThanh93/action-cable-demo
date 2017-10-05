@@ -12,5 +12,5 @@
   <% end %>
 </div>
 
-  <%= render: "messages/message_form" %>
+  <%= render partial: "messages/message_form", locals: {message: @message, chatroom: @chatroom} %>
 </div>
